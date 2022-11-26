@@ -18,8 +18,10 @@ from django.urls import path
 from roles import views
 
 urlpatterns = [
-    path('', views.login, name="login"),
     path('register', views.register_user, name="register"),
-    path('all_flights', views.all_flights, name="all_flights"),
+    path('login', views.login, name="login"),
+    path('edit_flight', views.edit_flight_timings, name="login"),
+    # path('register', views.register_user, name="register"),
+    # path('all_flights', views.all_flights, name="all_flights"),
 
 ]
