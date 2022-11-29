@@ -21,6 +21,8 @@ urlpatterns = [
     path('register', views.register_user, name="register"),
     path('login', views.login, name="login"),
     path('edit_flight', views.edit_flight_timings, name="login"),
+    path('gates', views.all_gate_records, name="all_gate_records"),
+    path('setgates', views.setup_gate, name="setgates"),
     # path('register', views.register_user, name="register"),
     # path('all_flights', views.all_flights, name="all_flights"),
 
