@@ -1,4 +1,4 @@
-# Sustainable Soil Management Tool 🌱 🌾
+# Oh My Natural: Sustainable Soil Management
 
 ![Crop Growth Animation](https://www.nasa.gov/sites/default/files/thumbnails/image/crops_imageb_v2_opt1.gif)
 
