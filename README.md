@@ -6,7 +6,6 @@
 
 The mission of this project is to safeguard soil fertility by promoting sustainable farming practices. This includes treating crop diseases organically and cultivating crops that are best suited for specific soil types to prevent degradation.
 
-> "We turn fertile lands into deserts by using ineffective farming technologies. There is no future until we return to effective farming and save the soil." – Team 11
 
 ## Description of Problem
 
