@@ -1,6 +1,6 @@
 # Oh My Natural: Sustainable Soil Management
 
-![Crop Growth Animation](https://www.nasa.gov/sites/default/files/thumbnails/image/crops_imageb_v2_opt1.gif)
+![Crop Growth Animation](https://media.istockphoto.com/id/1218970851/photo/conceptual-presentation-of-the-collection-of-important-data-and-analysis-of-plant-growth-on.jpg?b=1&s=612x612&w=0&k=20&c=ql9-bo6WtNlKJ44cEoqyR7dU8WwfF3iSR6GA2WlytCo=)
 
 ## Table of Contents
 
