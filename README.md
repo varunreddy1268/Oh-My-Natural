@@ -38,12 +38,5 @@ Users can upload a photograph of an afflicted plant leaf, and the program will d
 - [Crop recommendation dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) 
 - [Disease detection dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) 
 
-## Tech Stack 🛠
+## Tech Stack 🛠==
 
-![Tech Stack](https://user-images.githubusercontent.com/27505090/167964882-36b092c3-f586-4641-81bc-feef1d0ad542.png)
-
-[Add further details about your tech stack here.]
-
-![Tech Stack Continued](https://user-images.githubusercontent.com/27505090/167964869-fcc1da4b-30c3-4fad-bb79-c61df5dd6d78.png)
-
-[Add further details about your tech stack here.]
