@@ -1,0 +1,200 @@
+
+<!-- video code -->
+<style>
+	#hero {
+  height:100vh;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+
+#hero::after {
+width:100%;
+height:100%;
+content: '';
+position:absolute;
+z-index:10;
+top:0;
+left:0;
+background:rgba(0,0,0,0.5)
+}
+
+
+#hero video {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+z-index:5;
+object-fit:cover;
+font-family:'object-fit: cover';
+}
+
+
+#hero .texture {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+z-index:15;
+background:url("{{ url_for('static', filename='images/texture.png') }} ");
+}
+
+
+#hero .caption {
+
+position:relative;
+z-index:20;
+text-align:center;
+color:#ffffff;
+}
+
+
+
+#hero .caption h1 {
+
+text-transform: uppercase;
+font-size:2em;
+font-family: 'Oswald', sans-serif;
+margin-bottom:0.5rem;
+}
+
+#hero .caption h2 {
+font-weight:400;
+font-size:1.5rem;
+margin:0;
+font-family: 'PT Sans', sans-serif;
+}
+
+button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+cursor: pointer;
+font: arial;
+border-radius: 50px;
+margin-top: 10px;
+}
+
+
+
+
+@media screen and (min-width:768px)
+{
+#hero .caption h1 {
+  font-size:2.5rem;
+}
+
+#hero .caption h2 {
+  font-size:1.75rem;
+}
+}
+
+
+</style>
+
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div id="hero">
+
+
+	<div class="texture">  
+		  <h1 style="margin-left: 50px;margin-top:15px;color: rgb(255, 255, 255); font-family: 'PT Sans', sans-serif;">    O'My Natural 🌾</h1>  
+		  <hr  color="white">       
+		  <div style="margin-left:1100px;margin-top: -70px;font-size: 18px; font-weight: bold;">     
+
+		<a  style="background-color:#4CAF50;color: rgb(255, 255, 255);font-family: 'PT Sans', sans-serif;
+		           padding:8px;border-radius: 15px;"
+		                      href="{{ url_for('crop_recommend') }}">Predict Crop</a>
+
+		<a  style="color: rgb(255, 255, 255);font-family: 'PT Sans', sans-serif;margin-left: 20px;
+		            background-color:#4CAF50;padding:8px;border-radius: 15px;" 
+		                       href="{{ url_for('disease_prediction') }}">Predict Disease</a>
+
+          </div>
+	</div>
+
+	<video
+	loop
+	muted
+	autoplay
+	preload="auto"
+	>
+		  <source src="{{ url_for('static', filename='images/sprouts_final.mp4') }}" type="video/mp4">
+		  Your browser does not support the video tag.  
+	</video>
+
+
+</div>
+
+
+<script src="js/object-fit-videos.js"></script>
+<script src="js/app.js"></script>
+
+<section class="blog py-5" style="margin-top: -30px;">
+	<div class="container py-md-5">
+		<h3 class="heading mb-sm-5 mb-4 text-center" 
+		    style="text-decoration: underline;text-decoration-color: #4CAF50;"> Our Models</h3>
+		<div class="row blog-grids">
+	
+			<div class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5"
+			     style="margin-left: 100px;">
+
+				<img src="{{ url_for('static', filename='images/s4.gif') }}" class="img-fluid" alt="">
+
+				<a href="{{ url_for('disease_prediction') }}">
+					<div class="blog-info" style="margin-top: 20px;">
+						<h4>Crop Disease</h4>
+						<p class="mt-2">Predicting the name and causes of crop disease and suggestions to cure it</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5" 
+			     style="margin-left: 180px;">
+				<img src="{{ url_for('static', filename='images/s3.gif') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('crop_recommend') }}">
+					<div class="blog-info"  style="margin-top: 20px;">
+
+						<h4>Crop</h4>
+
+						<p class="mt-2"> Recommendation about the type of crops to be cultivated which is suited
+							for the conditions</p>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- //Products & Services -->
+
+
+<!-- Creating custom grid and hover effect
+<section>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/s2.jpg" alt="">
+        <div class="overlay">
+           <h2>Hover effect 1</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+</div> -->
+
+</html>
+
+{% endblock %}
