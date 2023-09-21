@@ -2,18 +2,6 @@
 
 ![Crop Growth Animation](https://media.istockphoto.com/id/1218970851/photo/conceptual-presentation-of-the-collection-of-important-data-and-analysis-of-plant-growth-on.jpg?b=1&s=612x612&w=0&k=20&c=ql9-bo6WtNlKJ44cEoqyR7dU8WwfF3iSR6GA2WlytCo=)
 
-## Table of Contents
-
-- [Problem Statement](#problem-statement)
-- [Description](#description)
-- [Motivation](#motivation)
-- [Applications](#applications)
-  - [Crop Recommendation](#crop-recommendation)
-  - [Fertilizer Recommendation](#fertilizer-recommendation)
-  - [Plant Disease Prediction](#plant-disease-prediction)
-- [Data Sources](#data-sources)
-- [Tech Stack](#tech-stack)
-
 ## Problem Statement
 
 The mission of this project is to safeguard soil fertility by promoting sustainable farming practices. This includes treating crop diseases organically and cultivating crops that are best suited for specific soil types to prevent degradation.
