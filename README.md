@@ -9,8 +9,6 @@ The mission of this project is to safeguard soil fertility by promoting sustaina
 
 ## Description of Problem
 
-[Add detailed description of the problem statement here.]
-
 ## Motivation 💪
 
 - Farming is a cornerstone of a country's economic growth, especially in nations like India where a significant portion of the population relies on agriculture for their livelihoods.
